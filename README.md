@@ -7,8 +7,8 @@ to provide additional semver functionalities.
 
 ```bash
 git clone --recurse-submodules https://github.com/iamgio/semverx
-ln -s $(pwd)/semverx/semverx.sh /usr/local/bin/semverx
-chmod +x /usr/local/bin/semverx
+chmod +x semverx/semverx.sh
+ln -s "$(pwd)/semverx/semverx.sh" /usr/local/bin/semverx
 ```
 
 ## Features
