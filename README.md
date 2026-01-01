@@ -6,9 +6,9 @@ to provide additional semver functionalities.
 ## Installation
 
 ```bash
-git clone --recurse-submodules https://github.com/iamgio/semverx
-chmod +x semverx/semverx.sh
-ln -s "$(pwd)/semverx/semverx.sh" /usr/local/bin/semverx
+git clone --recurse-submodules https://github.com/iamgio/semverx ~/.local/share/semverx
+chmod +x ~/.local/share/semverx/semverx.sh
+ln -s "~/.local/share/semverx/semverx.sh" /usr/local/bin/semverx
 ```
 
 ## Features
